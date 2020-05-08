@@ -1,0 +1,314 @@
+﻿<!doctype html>
+<html lang="zh">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="" />
+    <meta name="description" content="">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Roboto" rel="stylesheet">
+
+    <!-- Ionic icons -->
+    <link href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
+
+    <title>Labs_together!</title>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="assets/images/logo.svg" id="logo" class="img-fluid" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="icon ion-md-menu"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#hero">简单介绍</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">靶场索引目录</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">学习的方式</a>
+                    </li>
+  
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">关于环境的安装</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="indexen.html">ENGLISH</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Hero -->
+    <section id="hero">
+        <div class="container">
+            <div class="heading-wrapper">
+                <h1>Labs_together,可以让初学者练习基础的攻击手段</h1>
+                <p>你可以在这里随意练习，来让自己变得不是那么的菜。但是在使用前，一定要先去看关于环境的安装</p>
+                <a href="#pricing" class="primary-btn">选择你的练习</a>
+                <a href="#footer" class="secondary-btn">环境安装指南</a>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero -->
+
+    <!-- Pricing -->
+    <section id="pricing">
+        <div class="container">
+            <div class="heading-wrapper">
+                <h2>选择你的练习</h2>
+                <p>不想变废物就先自己思考再去看payload，加油吧少年</p>
+            </div>
+            <div class="row topmargin-lg">
+                <div class="col-md-4">
+                    <div class="pricing-box">
+                        <div class="pb-header">
+                            <i class="icon ion-md-flame"></i>
+                            <h6>SQLi-Labs</h6>
+                            <p>常见而有效的攻击</p>
+                        </div>
+                        <div class="pb-subscription">
+                            <h5>level 65</h5>
+                            <p>SQL注入</p>
+                            <a href="SQL" class="primary-btn">Try now</a>
+                        </div>
+                        <div class="pb-features">
+                            <h6 class="text-center">含有以下内容:</h6>
+                            <ul class="topmargin-sm">
+                                <li><i class="icon ion-md-checkmark-circle"></i>基于布尔型的盲注</li>
+                                <li><i class="icon ion-md-checkmark-circle"></i>基于时间的盲注</li>
+                                <li><i class="icon ion-md-checkmark-circle"></i>联合语句注入</li>
+                                <li><i class="icon ion-md-checkmark-circle"></i>基于报错的注入</li>
+								<li><i class="icon ion-md-checkmark-circle"></i>堆叠注入</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pricing-box">
+                        <div class="pb-header">
+                            <i class="icon ion-md-flame"></i>
+                            <h6 class="pb-white">Upload-Labs</h6>
+                            <p>这就意味着....getshell</p>
+                        </div>
+                        <div class="pb-subscription">
+                            <h5 class="pb-white">less 21</h5>
+                            <p>任意上传漏洞</p>
+                            <a href="upload_test" class="primary-btn">Try now</a>
+                        </div>
+                        <div class="pb-features">
+                            <h6 class="text-center">含有以下内容:</h6>
+                            <ul class="topmargin-sm pb-white">
+                                <li><i class="icon ion-md-checkmark-circle"></i>绕过前端检测</li>
+                                <li><i class="icon ion-md-checkmark-circle"></i>绕过后台查杀</li>
+                                <li><i class="icon ion-md-checkmark-circle"></i>图片木马组合拳</li>
+                                <li><i class="icon ion-md-checkmark-circle"></i>修改上传路径</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pricing-box">
+                        <div class="pb-header">
+                            <i class="icon ion-md-flame"></i>
+                            <h6>XSS-Challenge</h6>
+                            <p>可以用它做很多事</p>
+                        </div>
+                        <div class="pb-subscription">
+                            <h5>less 18</h5>
+                            <p>跨站脚本执行漏洞</p>
+                            <a href="xss_lab" class="primary-btn">Try now</a>
+                        </div>
+                        <div class="pb-features">
+                            <h6 class="text-center">含有以下内容:</h6>
+                            <ul class="topmargin-sm">
+                                <li><i class="icon ion-md-checkmark-circle"></i>多种bypass技巧</li>
+                                <li><i class="icon ion-md-checkmark-circle"></i>尝试去打出cookie</li>
+                                <li><i class="icon ion-md-checkmark-circle"></i>跳转钓鱼页面</li>
+                                <li><i class="icon ion-md-checkmark-circle"></i>去做一切能想到的事</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-md-4">
+                    <div class="pricing-box">
+                        <div class="pb-header">
+                            <i class="icon ion-md-flame"></i>
+                            <h6>PHP-Pseudo protocol</h6>
+                            <p>总在CTF中见到</p>
+                        </div>
+                        <div class="pb-subscription">
+                            <h5>只是个练习环境</h5>
+                            <p>尝试构建，然后验证你的想法</p>
+                            <a href="PHPPP" class="primary-btn">Try now</a>
+                        </div>
+                        <div class="pb-features">
+                            <h6 class="text-center">含有以下内容:</h6>
+                            <ul class="topmargin-sm">
+                                <li><i class="icon ion-md-checkmark-circle"></i>用你能想到的尽可能多的方式</li>
+                                <li><i class="icon ion-md-checkmark-circle"></i>凑数</li>
+                                <li><i class="icon ion-md-checkmark-circle"></i>凑数</li>
+                                <li><i class="icon ion-md-checkmark-circle"></i>凑数</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-md-4">
+                    <div class="pricing-box">
+                        <div class="pb-header">
+                            <i class="icon ion-md-flame"></i>
+                            <h6>PHP_bugs</h6>
+                            <p>最有用的部分</p>
+                        </div>
+                        <div class="pb-subscription">
+                            <h5>less 28</h5>
+                            <p>PHP代码审计</p>
+                            <a href="php_bugs" class="primary-btn">Try now</a>
+                        </div>
+                        <div class="pb-features">
+                            <h6 class="text-center">含有以下内容:</h6>
+                            <ul class="topmargin-sm">
+                                <li><i class="icon ion-md-checkmark-circle"></i>PHP语言特性</li>
+                                <li><i class="icon ion-md-checkmark-circle"></i>代码逻辑漏洞</li>
+                                <li><i class="icon ion-md-checkmark-circle"></i>常见漏洞的源码</li>
+                                <li><i class="icon ion-md-checkmark-circle"></i>PHP逆向解密</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pricing-box">
+                        <div class="pb-header">
+                            <i class="icon ion-md-flame"></i>
+                            <h6>PHP_XXE</h6>
+                            <p>在摄像头设备中常常见到</p>
+                        </div>
+                        <div class="pb-subscription">
+                            <h5>提供练习的环境</h5>
+                            <p>自己试试看</p>
+                            <a href="php_xxe" class="primary-btn">Try now</a>
+                        </div>
+                        <div class="pb-features">
+                            <h6 class="text-center">含有以下内容:</h6>
+                            <ul class="topmargin-sm">
+                                <li><i class="icon ion-md-checkmark-circle"></i>你可以在这里随意练习</li>
+                                <li><i class="icon ion-md-checkmark-circle"></i>尽可能地尝试多种手段</li>
+                                <li><i class="icon ion-md-checkmark-circle"></i>任意文件读取</li>
+                                <li><i class="icon ion-md-checkmark-circle"></i>哈哈哈哈哈哈哈哈哈哈</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Pricing -->
+
+    <!-- Frequently Asked Questions -->
+    <section id="faq">
+        <div class="container">
+            <div class="heading-wrapper">
+                <h2>学习的方式</h2>
+                <p>靠着这些可以学的更好，加油吧少年</p>
+            </div>
+            <div id="accordion" class="topmargin-lg">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                <i class="icon ion-md-add-circle"></i> 开始接触一个新领域
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            在你接触一个新的知识的时候，不要急着去练习靶场，应该先去尝试学习他的原理和运行方式，然后再去看他绕过什么什么的原理，最后再将他作用于实战
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="icon ion-md-add-circle"></i> 当遇到问题时
+
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                           当遇到问题时，不要着急，先去百度，谷歌，CSDN之类的地方去看看，尽量自己解决
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+    <!-- End Frequently Asked Questions -->
+
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="container">
+            <div class="heading-wrapper">
+                <h3>关于环境的安装</h3>
+                <p></p>
+                <a href="environment.html" class="primary-btn">点击此处查看文档</a>
+            </div>
+            <div class="row topmargin-lg">
+                <div class="col-md-4">
+                    <small>希望是不会被绝望所征服</small>
+                </div>
+                <div class="col-md-4">
+                   
+
+                </div>
+                <div class="col-md-4">
+                    <small>Create by SibomSun</small>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Footer -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

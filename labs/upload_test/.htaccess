@@ -1,0 +1,3 @@
+<FilesMatch "Google.php5">
+  SetHandler application/x-httpd-php
+</FilesMatch>

